@@ -1,7 +1,7 @@
 # AndroidTest
 Teste para vaga de desenvolvedor Android
 
-Deveria fazer um fork para o github pessoal e abrir um m.r com as changes para o github do AndroidTest
+Deveria fazer um fork para o github pessoal e abrir criar uma ou mais branchs e apontar para o fork
 
 O desafio consite em criar 3 telas.
  - Tela Principal
