@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">Android Test</string>
+
+    <!-- Geral -->
+    <string name="loading_message">Carregando…</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_confirm">Sim</string>
+    <string name="action_cancel">Não</string>
+    <string name="cd_back">Voltar</string>
+
+    <!-- Home -->
+    <string name="platform_new">Plataforma Nova</string>
+    <string name="platform_old">Plataforma Antiga</string>
+    <string name="exit_dialog_title">Sair?</string>
+    <string name="exit_dialog_message">Deseja realmente sair do app?</string>
+
+    <!-- My Data -->
+    <string name="my_data_screen_title">Meus dados</string>
+    <string name="my_data_label_name">Nome</string>
+    <string name="my_data_label_cpf">Cpf</string>
+    <string name="my_data_label_age">Idade</string>
+    <string name="my_data_cd_avatar">Avatar de %s</string>
+    <string name="my_data_error">Erro ao carregar Meus Dados</string>
+
+    <!-- My Plan -->
+    <string name="my_plan_screen_title">Plano Claro flex</string>
+    <string name="my_plan_status">Status: %s</string>
+    <string name="my_plan_phone">Meu número: %s</string>
+    <string name="my_plan_gb_label">Plano</string>
+    <string name="my_plan_bonus_label">Bônus para redes sociais</string>
+    <string name="my_plan_apps_title">Apps inclusos:</string>
+    <string name="my_plan_error">Erro ao carregar Meu Plano</string>
+
 </resources>
