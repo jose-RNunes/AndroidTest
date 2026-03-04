@@ -31,7 +31,8 @@
         "title": "Sair",
         "action": "EXIT",
         "modal": {
-          "title": "Deseja realemente sair?",
+          "title": "Sair?",
+          "subtitle": "Deseja realemente sair?",
           "buttons": [
             {
               "title": "Sim",
