@@ -1,7 +1,7 @@
 # AndroidTest
 Teste para vaga de desenvolvedor Android
 
-Deveria fazer um fork para o github pessoal e abrir criar uma ou mais branchs e apontar para o fork
+Para a entrega do desáfio, deverá clonar o projeto e enviar por email para o devido fornecedor.
 
 O desafio consite em criar 3 telas.
  - Tela Principal
