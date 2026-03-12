@@ -39,6 +39,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import br.com.androidtest.R
+import br.com.androidtest.core.maskCpf
 import br.com.androidtest.core.util.file.FileUtil
 import br.com.androidtest.core.util.share.Browser
 import br.com.androidtest.core.util.share.ShareUtil
@@ -71,7 +72,7 @@ fun MyDataProfileScreen(
         titleScreen = uiState.myData.titleScreen,
         avatar = uiState.myData.avatarUrl,
         name = uiState.myData.name,
-        document = uiState.myData.documentNumber,
+        document = uiState.myData.documentNumber.maskCpf(),
         age = uiState.myData.age,
         items = uiState.itemsMyData,
         onClickItem = { itemClick ->
