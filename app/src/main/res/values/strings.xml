@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Android Test</string>
+    <string name="title_question_exit">Sair?</string>
+    <string name="message_exit">Deseja realmente sair do app?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Nao</string>
+    <string name="go_item_menu">Ir</string>
+    <string name="avatar_profile">Foto de perfil</string>
+    <string name="label_name">Nome:</string>
+    <string name="label_document">Cpf:</string>
+    <string name="label_age">Idade:</string>
+    <string name="label_status">Status</string>
+    <string name="label_my_phone_number">"Meu número: "</string>
 </resources>

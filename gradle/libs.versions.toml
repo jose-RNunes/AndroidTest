@@ -8,21 +8,63 @@ espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.10.0"
 koin = "4.1.1"
 activityKtx = "1.10.1"
+turbine = "1.2.1"
+versionMockk = "1.12.0"
+versionCoroutinesTest = "1.5.2"
+versionCoreTesting = "2.2.0"
+versionKotlinTest = "1.7.0"
+activityCompose = "1.10.0"
+composeBom = "2025.08.00"
+appcompat = "1.6.1"
+material = "1.13.0"
+versionCoilImageCompose = "2.4.0"
+navigationCompose = "2.8.0"
+versoinGson = "2.9.0"
 
 [libraries]
 androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-junit = { group = "junit", name = "junit", version.ref = "junit" }
-androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
-androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+
+#Layout:
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "versionCoilImageCompose" }
 
 #Koin
 koin_core = { group = "io.insert-koin", name = "koin-core", version.ref = "koin" }
 koin_android = { group = "io.insert-koin", name = "koin-android", version.ref = "koin" }
 koin_android_compat = { group = "io.insert-koin", name = "koin-android-compat", version.ref = "koin" }
 koin_view_model = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+koin-compose-navigation = { group = "io.insert-koin", name = "koin-androidx-compose-navigation", version.ref = "koin" }
+
+#Data:
+squareup-gson = { group = "com.google.code.gson", name = "gson", version.ref="versoinGson" }
+
+#Test:
+io-mockk-test = { group = "io.mockk", name = "mockk", version.ref="versionMockk" }
+org-jetbrains-kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref="versionCoroutinesTest" }
+org-jetbrains-kotlinx-test = { group = "org.jetbrains.kotlin", name = "kotlin-test", version.ref="versionKotlinTest" }
+androidx-arch-core-test = { group = "androidx.arch.core", name = "core-testing", version.ref="versionCoreTesting" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+turbine = { module = "app.cash.turbine:turbine", version.ref = "turbine" }
+
+
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }

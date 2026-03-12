@@ -10,12 +10,12 @@
     },
     "options": [
       {
-        "iconUrl": "ic_myplan",
+        "iconUrl": "ic_document",
         "title": "Meu plano",
         "action": "MY_PLAN"
       },
       {
-        "iconUrl": "ic_document",
+        "iconUrl": "ic_download",
         "title": "Baixar contrato",
         "assetName": "terms.pdf",
         "action": "SHARE_CONTRACT"
